@@ -50,7 +50,7 @@ p.description {
 }
 
 .bg img {
-    animation: rotate 360s linear infinite;
+    animation: rotate 720s linear infinite;
     height: max(300vw, 300vh);
 }
 
