@@ -1,3 +1,13 @@
+@keyframes rotate {
+    0% {
+        transform: translate(-15%, -25%)
+    }
+
+    100% {
+        transform: translate(-15%, -25%) rotate(360deg);
+    }
+}
+
 ::selection {
     color: #AF3333;
 }
@@ -8,7 +18,7 @@
 
 body {
     font-size: clamp(8px, 1vw, 16px);
-    background-color: #090808;
+    background-color: #090707;
     margin: 0;
 }
 
@@ -29,13 +39,22 @@ p.description {
     max-width: 40ch;
 }
 
-.landing {
-    background-image: url("../svg/cool-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+.bg {
+    z-index: -1;
+    user-select: none;
+    user-focus: none;
 
+    overflow: hidden;
+    position: absolute;
+    inset: 0;
+}
+
+.bg img {
+    animation: rotate 360s linear infinite;
+    height: max(300vw, 300vh);
+}
+
+.landing {
     height: calc(100vh - 10vw);
     width: calc(100% - 10vw);
 
