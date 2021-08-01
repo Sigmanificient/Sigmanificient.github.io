@@ -1,58 +1,62 @@
 ::selection {
-  color: #AF3333;
+    color: #AF3333;
 }
 
 :root {
-  --border: 4px;
+    --border: 4px;
 }
 
 body {
-  font-size: clamp(8px, 1vw, 16px);
-  background-color: #090808;
-  margin: 0;
+    font-size: clamp(8px, 1vw, 16px);
+    background-color: #090808;
+    margin: 0;
 }
 
 h1, p {
-  font-family: "JetBrains Mono", "Consolas", "Courier New", monospace;
-  color: white;
+    font-family: "JetBrains Mono", "Consolas", "Courier New", monospace;
+    color: white;
 }
 
 h1 {
-  box-sizing: border-box;
-  font-size: 4em;
-  font-weight: bold;
+    box-sizing: border-box;
+    font-size: 4em;
+    font-weight: bold;
 }
 
 p.description {
-  font-weight: normal;
-  font-size: 2em;
-  max-width: 40ch;
+    font-weight: normal;
+    font-size: 2em;
+    max-width: 40ch;
 }
 
 .landing {
-  background-image: url("../svg/cool-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+    background-image: url("../svg/cool-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
-  height: calc(100vh - 10vw);
-  width: calc(100% - 10vw);
+    height: calc(100vh - 10vw);
+    width: calc(100% - 10vw);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5vw;
 }
 
 p {
-  font-size: 2em;
+    font-size: 2em;
+}
+
+.description p {
+    margin: 0;
 }
 
 span {
-  font-family: inherit;
+    font-family: inherit;
 }
 
 .red {
-  color: #AF3333;
+    color: #AF3333;
 }
