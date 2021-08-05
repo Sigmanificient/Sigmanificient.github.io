@@ -1,0 +1,5 @@
+*.css linguist-detectable=false
+*.html linguist-detectable=false
+
+*.pug linguist-detectable=true
+*.scss linguist-detectable=true
