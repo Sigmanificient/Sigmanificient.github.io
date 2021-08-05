@@ -1,0 +1,33 @@
+::selection {
+    color: #AF3333;
+}
+
+:root {
+    --border: 4px;
+}
+
+h1 {
+    box-sizing: border-box;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2em;
+}
+
+body {
+    color: white;
+    font-family: "JetBrains Mono", "Consolas", "Courier New", monospace;
+    font-size: clamp(8px, 1vw, 16px);
+    background-color: #090707;
+    margin: 0;
+}
+
+span {
+    font-family: inherit;
+
+    .red {
+        color: #AF3333;
+    }
+}
