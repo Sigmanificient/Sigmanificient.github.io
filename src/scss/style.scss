@@ -16,28 +16,24 @@
     --border: 4px;
 }
 
-body {
-    font-size: clamp(8px, 1vw, 16px);
-    background-color: #090707;
-    margin: 0;
-}
-
-h1, p {
-    font-family: "JetBrains Mono", "Consolas", "Courier New", monospace;
-    color: white;
-}
-
 h1 {
     box-sizing: border-box;
     font-size: 4em;
     font-weight: bold;
 }
 
-p.description {
-    font-weight: normal;
+p {
     font-size: 2em;
-    max-width: 40ch;
 }
+
+body {
+    color: white;
+    font-family: "JetBrains Mono", "Consolas", "Courier New", monospace;
+    font-size: clamp(8px, 1vw, 16px);
+    background-color: #090707;
+    margin: 0;
+}
+
 
 .bg {
     z-index: -1;
@@ -47,11 +43,11 @@ p.description {
     overflow: hidden;
     position: absolute;
     inset: 0;
-}
 
-.bg img {
-    animation: rotate 720s linear infinite;
-    height: max(300vw, 300vh);
+    img {
+        animation: rotate 720s linear infinite;
+        height: max(300vw, 300vh);
+    }
 }
 
 .landing {
@@ -64,18 +60,14 @@ p.description {
     padding: 5vw;
 }
 
-p {
-    font-size: 2em;
-}
-
 .description p {
     margin: 0;
 }
 
 span {
     font-family: inherit;
-}
 
-.red {
-    color: #AF3333;
+    .red {
+        color: #AF3333;
+    }
 }
