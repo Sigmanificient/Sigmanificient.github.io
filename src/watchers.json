@@ -3,5 +3,10 @@
         "program": "pug",
         "arguments": "$FileName$ --out $FileParentDir$",
         "output paths to refresh": "$FileNameWithoutExtension$.html"
+    },
+    "SCSS": {
+        "program": "scss",
+        "arguments": "$FileName$:$ProjectFileDir$/css/$FileNameWithoutExtension$.css",
+        "output paths to refresh": "$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map"
     }
 }
