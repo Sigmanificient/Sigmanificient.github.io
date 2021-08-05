@@ -1,0 +1,7 @@
+{
+    "Pug/Jade": {
+        "program": "pug",
+        "arguments": "$FileName$ --out $FileParentDir$",
+        "output paths to refresh": "$FileNameWithoutExtension$.html"
+    }
+}
