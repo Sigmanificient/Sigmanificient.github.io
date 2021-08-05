@@ -32,6 +32,13 @@ body {
   margin: 0;
 }
 
+span {
+  font-family: inherit;
+}
+span .red {
+  color: #AF3333;
+}
+
 .bg {
   z-index: -1;
   user-select: none;
@@ -56,13 +63,6 @@ body {
 
 .description p {
   margin: 0;
-}
-
-span {
-  font-family: inherit;
-}
-span .red {
-  color: #AF3333;
 }
 
 /*# sourceMappingURL=style.css.map */
