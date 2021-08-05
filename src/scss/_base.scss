@@ -27,7 +27,7 @@ body {
 span {
     font-family: inherit;
 
-    .red {
+    &.red {
         color: #AF3333;
     }
 }
